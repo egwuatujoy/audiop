@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Manrope;
+  color: #0d0c0c;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  /* margin: 0 auto; */
+}

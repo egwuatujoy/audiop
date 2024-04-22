@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import NavBar from "./components/NavBar";
+import Header from "./components/Header";
+import "./styles.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/pages/Home";
+import HeadPhones from "./components/pages/HeadPhones";
+import Speakers from "./components/pages/Speakers";
+import EarPhones from "./components/pages/EarPhones";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/headphones" element={<HeadPhones />} />
+        <Route path="/speakers" element={<Speakers />} />
+        <Route path="/earphones" element={<EarPhones />} />
+      </Routes>
+      <Header />
     </div>
   );
-}
+};
 
 export default App;

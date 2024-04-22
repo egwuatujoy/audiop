@@ -1,0 +1,50 @@
+.header-container {
+  background-color: #141414;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16rem;
+}
+
+.right {
+  width: 550px;
+}
+.left {
+  width: 550px;
+}
+.left h2 {
+  background-color: #d87d4a;
+  color: #fff;
+  display: inline;
+  padding: 0.8rem 1.7rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.left-title {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 16px;
+  letter-spacing: 1rem;
+}
+
+.header-container h1 {
+  color: #fff;
+  font-size: 56px;
+  margin: 1.3rem 0;
+}
+
+.left-about {
+  color: grey;
+  font-size: 20px;
+  margin-bottom: 4rem;
+}
+
+.header-img {
+  width: 45%;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+}
