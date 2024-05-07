@@ -1,0 +1,33 @@
+.p-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  width: 100%;
+  padding: 0 22rem;
+}
+
+.product-link {
+  display: flex;
+}
+
+.product-comp {
+  background-color: rgb(249, 249, 249);
+  padding: 5rem;
+  width: 50%;
+}
+
+.product-img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 600px;
+  bottom: 0;
+}
+
+.product-comp h1 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}

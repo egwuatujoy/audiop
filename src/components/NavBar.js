@@ -18,7 +18,7 @@ const NavBar = () => {
         className="burger-nav"
         onClick={handleClick}
       />
-      <Link>
+      <Link to="/">
         <img src={audioPhile} alt="my logo icon" className="logo" />
       </Link>
       <ul className={show ? "hidden" : " "}>

@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./components/NavBar";
-import Header from "./components/Header";
 import "./styles.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/pages/Home";
@@ -17,7 +16,6 @@ const App = () => {
         <Route path="/speakers" element={<Speakers />} />
         <Route path="/earphones" element={<EarPhones />} />
       </Routes>
-      <Header />
     </div>
   );
 };

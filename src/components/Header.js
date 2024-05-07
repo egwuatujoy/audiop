@@ -1,17 +1,19 @@
 import React from "react";
-import "./Header.css";
+import "./Header.css"
 import Bitmap from "../images/Bitmap (1).png";
 const Header = () => {
   return (
     <div className="header-container">
-      <div className="left">
-        <p className="left-title">New Product</p>
-        <h1>XX99 MARK II HEADPHONE</h1>
-        <p className="left-about">
-          Experience natural, lifelike audio and exceptional build quality made
-          for the passionate music enthusiast.
-        </p>
-        <h2>See Product</h2>
+      <div className="background-img">
+        <div className="left">
+          <p className="left-title">New Product</p>
+          <h1>XX99 MARK II HEADPHONE</h1>
+          <p className="left-about">
+            Experience natural, lifelike audio and exceptional build quality
+            made for the passionate music enthusiast.
+          </p>
+          <h2>See Product</h2>
+        </div>
       </div>
 
       <div className="right">
@@ -20,5 +22,4 @@ const Header = () => {
     </div>
   );
 };
-
 export default Header;
